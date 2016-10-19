@@ -123,7 +123,7 @@ static const int MISMATCH_PENALTY = 2;
                         // 3 of 3 same rank
                         if ((ab+ac+bc)==60) {
                             self.score += 500*MATCH_BONUS;
-                            description = [NSString stringWithFormat:@"Matched %@, %@ and %@ with the same suit.\nAward %d points.",card.content,card_1.content,card_2.content,500*MATCH_BONUS];
+                            description = [NSString stringWithFormat:@"Matched %@, %@ and %@ with the same rank.\nAward %d points.",card.content,card_1.content,card_2.content,500*MATCH_BONUS];
                         }
                         // 2 of 3 same suit
                         if ((ab+ac+bc)==5) {

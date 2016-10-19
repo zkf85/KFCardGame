@@ -107,7 +107,7 @@
 
 
 -(void)viewDidLoad {
-    // initialize the label string
+    // initialize the label's string
     self.matchingDescription.text = @"KF's Card Matching Game.\n Please Choose Game Mode.";
 }
 @end
